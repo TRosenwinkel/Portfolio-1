@@ -1,0 +1,68 @@
+/* Main Styles */
+
+body {
+  font-family: "Signika", serif, times;
+  color: white;
+  background-color: #999;
+  margin: auto;
+}
+
+.menu {
+  float: right;
+  margin-right: 20px;
+}
+
+.hamburger{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.introduction {
+  margin-left: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* flex containers */
+
+.projects {
+  width: 100%;
+  height: 10em;
+  background-color: #be5178;
+}
+
+.github {
+  width: 100%;
+  height: 10em;
+  background-color: #1c1c1c;
+}
+
+.contact {
+  width: 100%;
+  height: 10em;
+  background-color: #1890a6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* extra styles */
+
+.clearfix : after {
+    content: "";
+    clear: both;
+    display: table;
+}
